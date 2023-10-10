@@ -1,0 +1,46 @@
+*{
+    text-align: center;
+}
+body{
+    background-color: rgb(13, 13, 124);
+    color: black;
+    justify-content: center;  
+    margin: auto;
+    width: 400px; 
+    padding: 30px;
+    background-image: url(bg.jpg);
+}
+h1{
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+.container1{
+    text-align: center;
+    background-color: grey;
+    width: 300px;
+    height: 350px;
+    padding-top:5px;
+    margin-left: 50px;
+}
+#amount{
+    width: 250px;
+    height: 20px;
+}
+#persons{
+    width: 250px;
+    height: 20px;
+}
+#bill{
+    width: 250px;
+    height: 20px;
+}
+#splitBill{
+    margin-left: -120px;
+}
+.btn{
+    border-radius: 8px;
+    width: 100px;
+    padding: 2px;
+    text-align: center;
+    margin-top: 10px;
+}
