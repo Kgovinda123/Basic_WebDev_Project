@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="app.js"></script>
+    <h1>BMI Calculator - Body Mass Index</h1>
+
+    <div class="Field-Holder">
+      <label for="height">HEIGHT: </label>
+      <input
+        type="text"
+        id="height"
+        placeholder="Enter Your Height in Cm"
+        size="30"
+        style="font-size: 15pt; height: 20px; width: 280px"
+      />
+    </div>
+    <div class="Field-Holder">
+      <label for="weight">WEIGHT: </label>
+      <input
+        type="text"
+        id="weight"
+        placeholder="Enter Your Weight in Kg"
+        size="30"
+        style="font-size: 15pt; height: 20px; width: 280px"
+      />
+    </div>
+    <div class="Field-Holder">
+      <label for="Bmi">BMI: </label>
+      <input
+        type="text"
+        id="Bmi"
+        size="30"
+        style="font-size: 15pt; height: 20px; width: 280px"
+      />
+      <button class="btn" onclick="bmi()">CALCULATE</button>
+      <h1 id="result"></h1>
+    </div>
+    <p>
+      Body mass index (BMI) is a measure of your weight relative to your height
+      and functions as a rough estimate of body fat. When you enter your height
+      and weight into a BMI calculator, you’ll get a number. That number is one
+      way to gauge if you have a healthy or unhealthy weight.
+    </p>
+        <h1 id="heading">BMI Chart – Adults (Age 20+)</h1>
+        <table style="width: 30%;" class="table">
+            <tr>
+                <th>BMI</th>
+                <th>WEIGHT STATUS</th>
+            </tr>
+            <tr>
+                <td>BELOW 18.5</td>
+                <td>UNDERWEIGHT</td>
+            </tr>
+            <tr>
+                <td>18.5 – 24.9</td>
+                <td>NORMAL OR HEAVY WEIGHT</td>
+            </tr>
+            <tr>
+                <td>25.0 – 29.9</td>
+                <td>OVERWEIGHT</td>
+            </tr>
+            <tr>
+                <td>30.0 and above</td>
+                <td>OBESE</td>
+            </tr>
+        </table>
+  </body>
+</html>
