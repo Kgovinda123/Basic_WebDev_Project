@@ -1,0 +1,41 @@
+* {
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    height: 400px; 
+    width: 800px;
+    border: 2px solid black;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.resetBtn {
+    position: relative;
+    top: 10px;
+    left: 370px;
+    width: 60px;
+    height: 30px;
+}
+.circle{
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 70px;
+    cursor: pointer;
+}
